@@ -25,9 +25,18 @@
 
 ```powershell
 cd E:\Python\Test_registration_form\backend
+```
+
+```powershell
 python -m venv .venv
+```
+```powershell
 .\.venv\Scripts\Activate.ps1
+```
+```powershell
 pip install -r requirements.txt
+```
+```powershell
 uvicorn main:app --reload --port 8000
 ```
 
@@ -45,7 +54,11 @@ SQLite база появится в `backend/app.db`.
 
 ```powershell
 cd E:\Python\Test_registration_form\frontend
+```
+```powershell
 npm install
+```
+```powershell
 npm run dev
 ```
 
