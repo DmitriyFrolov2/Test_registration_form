@@ -7,7 +7,7 @@ cd backend
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --port 9124
 ```
 
-Swagger UI: http://localhost:8000/docs
+Swagger UI: http://localhost:9124/docs

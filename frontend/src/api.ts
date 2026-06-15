@@ -1,7 +1,7 @@
 import axios, { AxiosError, InternalAxiosRequestConfig } from "axios";
 import type { TokenPair, TraceEntry } from "./types";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "http://localhost:9124";
 const ACCESS_KEY = "training_access_token";
 const REFRESH_KEY = "training_refresh_token";
 

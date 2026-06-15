@@ -37,14 +37,14 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 ```powershell
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --port 9124
 ```
 
 После запуска:
 
-- API: http://localhost:8000
-- Swagger: http://localhost:8000/docs
-- Health check: http://localhost:8000/health
+- API: http://localhost:9124
+- Swagger: http://localhost:9124/docs
+- Health check: http://localhost:9124/health
 
 SQLite база появится в `backend/app.db`.
 
